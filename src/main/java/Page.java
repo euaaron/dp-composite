@@ -1,15 +1,21 @@
-public class Paper {
-    private Component content;
+import java.util.Map;
 
-    private Paper() {
-        this.content = new Block("Body", "Dark");
+public class Page {
+    private Block content;
+
+    public Page(Map<String, String> options) {
+        this.content = (Block) new Block("page").setOptions(options);
     }
 
-    public void setComponent(Component content) {
+    public void setContent(Block content) {
         this.content = content;
     }
 
-    public String getComponent() {
+    public Block getContent() {
+        return this.content;
+    }
+
+    public String getContentAsJson() {
         return this.content.getComponent();
     }
 }

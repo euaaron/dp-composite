@@ -4,19 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f29a712-ec9f-4318-ac63-22dea3877874" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9f29a712-ec9f-4318-ac63-22dea3877874" name="Changes" comment="Concluded the system">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29vibWJc2Qup53KYo6dZGdOxSwo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,9 +44,80 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/aaron/source/academic/structure/dp-composite"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PageTest">
+    <configuration name="PageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dp-composite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTest.ShouldAddElementsToPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dp-composite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageTest" />
+      <option name="METHOD_NAME" value="ShouldAddElementsToPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTest.ShouldAddMultipleElementsToPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dp-composite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageTest" />
+      <option name="METHOD_NAME" value="ShouldAddMultipleElementsToPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTest.ShouldBeAbleToAddMoreThanOneBlockElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dp-composite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageTest" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToAddMoreThanOneBlockElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageTest.ShouldBeAbleToAddSectionsWithContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dp-composite" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageTest" />
+      <option name="METHOD_NAME" value="ShouldBeAbleToAddSectionsWithContent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PageTest" />
+        <item itemvalue="JUnit.PageTest.ShouldBeAbleToAddMoreThanOneBlockElement" />
+        <item itemvalue="JUnit.PageTest.ShouldAddElementsToPage" />
+        <item itemvalue="JUnit.PageTest.ShouldAddMultipleElementsToPage" />
+        <item itemvalue="JUnit.PageTest.ShouldBeAbleToAddSectionsWithContent" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,9 +126,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654000036689</updated>
-      <workItem from="1654000039435" duration="2000" />
+      <workItem from="1654000039435" duration="388000" />
+      <workItem from="1654000522433" duration="1969000" />
+      <workItem from="1654134056687" duration="478000" />
+      <workItem from="1654203563104" duration="471000" />
+      <workItem from="1654536198191" duration="14240000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -50,5 +147,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Concluded the system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concluded the system" />
   </component>
 </project>
